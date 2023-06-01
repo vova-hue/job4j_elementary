@@ -40,9 +40,9 @@ public class PointTest {
     }
 
     @Test
-    public void when101to122then22dot85() {
-        double expected = 22.85;
-        int x1 = 10;
+    public void when111to122then23dot26() {
+        double expected = 23.26;
+        int x1 = 11;
         int y1 = 1;
         int x2 = 1;
         int y2 = 22;
