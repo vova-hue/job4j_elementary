@@ -1,5 +1,7 @@
 package ru.job4j.condition;
 
+import java.util.Optional;
+
 public class Liken {
     public static void main(String[] args) {
         int first = 10;
