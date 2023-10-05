@@ -8,10 +8,10 @@ public class TwoNumberSum {
         while (i < array.length) {
             if (array[i] + array[j] == target) {
                 return new int[] {i, j};
-            } else if (array[i] + array[j] != target) {
-                i++;
-            } else {
+            } else if (array[i] + array[j] > target) {
                 j--;
+            } else {
+                i++;
             }
         }
         return new int[0];
